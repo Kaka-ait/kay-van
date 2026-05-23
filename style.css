@@ -1,0 +1,127 @@
+body {
+    background-color: whitesmoke;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+    font-family: 'Inter', -apple-system, sans-serif;
+}
+
+.card {
+    background:whitesmoke;
+    width: 350px;
+    border-radius: 12px;
+    box-shadow: 0 15px 35px rgba(0,0,0,0.1);
+    overflow: hidden;
+    border: 1px solid #ddd;
+}
+.card-header {
+    background-color: gray;
+    height: 80px;
+    display: flex;
+    justify-content: flex-end;
+    padding: 10px;
+}
+
+.status-badge {
+    background-color: #1a2a6c;
+    color: white;
+    font-size: 0.7rem;
+    padding: 10px 10px;
+    border-radius: 20px;
+    font-weight: bold;
+    height: fit-content;
+    
+}
+.card-body {
+    padding: 30px 25px;
+}
+
+h1 { margin: 0; font-size: 1.4rem; color: #333;
+ }
+ .card-header img {
+  width: 100%;
+  height: auto;
+  max-width: 300px; 
+  object-fit: cover; 
+}
+
+
+.tagline { 
+    color:green; 
+    font-weight: 600; 
+    margin: 5px 0 20px; 
+    font-size: 0.9rem;
+    text-transform: uppercase;
+}
+
+.services {
+    text-align: left;
+    background: #f8f9fa;
+    padding: 15px;
+    border-radius: 8px;
+    margin-bottom: 20px;
+}
+.service-item {
+    font-size: 0.85rem;
+    margin: 5px 0;
+    color: #666 bold;
+}
+
+.bio {
+    color: #666;
+    font-size: 0.9rem;
+    line-height: 1.5;
+    margin-bottom: 25px;
+}
+
+.contact-actions {
+    display: flex;
+    gap: 10px;
+}
+.btn {
+    flex: 1;
+    text-decoration: none;
+    padding: 12px;
+    border-radius: 6px;
+    font-weight: bold;
+    font-size: 0.9rem;
+    text-align: center;
+    transition: 0.2s;
+}
+.save-btn {
+    background:brown; 
+    color: white;
+    flex: 1; 
+}
+.whatsapp-btn {
+    background:green; 
+    color: white;
+    flex: 1.2;
+}
+
+.whatsapp-btn:hover {
+    background: #128C7E; 
+}
+
+
+.contact-actions {
+    display: flex;
+    gap: 5px;
+    flex-wrap: wrap;
+    }
+
+.save-btn:hover {
+    background:red;
+}
+.btn {
+    font-size: 0.8rem; 
+    padding: 10px 5px;
+   }
+
+
+.primary { background: #1a2a6c; color: white; }
+.secondary { background: #1a2a6c; border: 2px solid #1a2a6c; color:wheat; }
+
+.btn:hover { opacity: 0.9; transform: translateY(-2px); }
